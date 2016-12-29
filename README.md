@@ -4,16 +4,16 @@ Live Preview http://royhridoy.com/github/stylechanger/
 How to use:
 
 1. Getting Started
+<pre>
+      <span style="color: #999999;">&lt;!-- Style changer css --&gt;</span>
+      &lt;link rel=<span class="change-color">"stylesheet"</span> href=<span  class="change-color">"style-changer.css"</span>&gt;
 
-      <!-- Style changer css -->
-      <link rel="stylesheet" href="style-changer.css">
+      <span style="color: #999999;">&lt;!-- Set default color css --&gt;</span>
+      &lt;link rel=<span class="change-color">"stylesheet"</span> data-style=<span class="change-color">"styles"</span> href=<span class="change-color">"css/color/default.css"</span>&gt;
 
-      <!-- Set default color css -->
-      <link rel="stylesheet" data-style="styles" href="css/color/default.css">
-
-      <!-- Call style-changer.js plugin -->
-      <script src="js/style-changer.js"></script>
-        
+      <span style="color: #999999;">&lt;!-- Call style-changer.js plugin --&gt;</span>
+      &lt;script src=<span class="change-color">"js/style-changer.js"</span>&gt;&lt;/script&gt;
+        </pre>
 
 2. Set up your HTML
 
