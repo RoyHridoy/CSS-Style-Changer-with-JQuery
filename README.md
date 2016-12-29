@@ -14,11 +14,10 @@ How to use:
         
 
 2. Set up your HTML
-<pre>
-        <h3 class="text-capitalize"> 2. Set up your HTML</h3>
-        <pre>
-    &lt;div class=<span class="change-color">"style-changer"</span>&gt;
-        &lt;div class=<span class="change-color">"style-box-control"</span>&gt;
+
+ <pre>
+    &lt;div class=<span>"style-changer"</span>&gt;
+        &lt;div class=<span>"style-box-control"</span>&gt;
             &lt;button&gt; &lt;i class=<span class="change-color">"fa fa-cog fa-spin"</span>&gt;&lt;/i&gt;&lt;/button&gt;
         &lt;/div&gt;
         &lt;div class=<span class="change-color">"style-changer-box"</span>&gt;
