@@ -14,7 +14,7 @@ How to use:
         
 
 2. Set up your HTML
-
+<pre>
     <div class="style-changer">
         <div class="style-box-control">
             <button> <i class="fa fa-cog fa-spin"></i></button>
@@ -28,7 +28,7 @@ How to use:
             <button data-file="skyblue" class="color-skyblue"></button>
         </div>
     </div>
-        
+</pre>
 
 3. create variations
 
