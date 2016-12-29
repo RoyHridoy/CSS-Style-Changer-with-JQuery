@@ -1,16 +1,18 @@
 # CSS-Style-Changer-with-JQuery
 Live Preview http://royhridoy.com/github/stylechanger/
+
 How to use:
+
 1. Getting Started
 
-    <!-- Style changer css -->
-    <link rel="stylesheet" href="style-changer.css">
+      <!-- Style changer css -->
+      <link rel="stylesheet" href="style-changer.css">
 
-    <!-- Set default color css -->
-    <link rel="stylesheet" data-style="styles" href="css/color/default.css">
+      <!-- Set default color css -->
+      <link rel="stylesheet" data-style="styles" href="css/color/default.css">
 
-    <!-- Call style-changer.js plugin -->
-    <script src="js/style-changer.js"></script>
+      <!-- Call style-changer.js plugin -->
+      <script src="js/style-changer.js"></script>
         
 
 2. Set up your HTML
