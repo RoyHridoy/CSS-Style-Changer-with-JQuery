@@ -15,19 +15,21 @@ How to use:
 
 2. Set up your HTML
 <pre>
-    <div class="style-changer">
-        <div class="style-box-control">
-            <button> <i class="fa fa-cog fa-spin"></i></button>
-        </div>
-        <div class="style-changer-box">
-            <button data-file="default" class="color-default disabled"></button>
-            <button data-file="red" class="color-red"></button>
-            <button data-file="green" class="color-green"></button>
-            <button data-file="gold" class="color-gold"></button>
-            <button data-file="blue" class="color-blue"></button>
-            <button data-file="skyblue" class="color-skyblue"></button>
-        </div>
-    </div>
+        <h3 class="text-capitalize"> 2. Set up your HTML</h3>
+        <pre>
+    &lt;div class=<span class="change-color">"style-changer"</span>&gt;
+        &lt;div class=<span class="change-color">"style-box-control"</span>&gt;
+            &lt;button&gt; &lt;i class=<span class="change-color">"fa fa-cog fa-spin"</span>&gt;&lt;/i&gt;&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=<span class="change-color">"style-changer-box"</span>&gt;
+            &lt;button data-file=<span class="change-color">"default"</span> class=<span class="change-color">"color-default disabled"</span>&gt;&lt;/button&gt;
+            &lt;button data-file=<span class="change-color">"red"</span> class=<span class="change-color">"color-red"</span>&gt;&lt;/button&gt;
+            &lt;button data-file=<span class="change-color">"green"</span> class=<span class="change-color">"color-green"</span>&gt;&lt;/button&gt;
+            &lt;button data-file=<span class="change-color">"gold"</span> class=<span class="change-color">"color-gold"</span>&gt;&lt;/button&gt;
+            &lt;button data-file=<span class="change-color">"blue"</span> class=<span class="change-color">"color-blue"</span>&gt;&lt;/button&gt;
+            &lt;button data-file=<span class="change-color">"skyblue"</span> class=<span class="change-color">"color-skyblue"</span>&gt;&lt;/button&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
 </pre>
 
 3. create variations
