@@ -1,0 +1,125 @@
+/*
+******************************
+CSS Style changer with JQuery
+Version: 1.0
+Author Name: RoyHridoy
+Author URI: https://github.com/RoyHridoy
+Project URI: https://github.com/RoyHridoy/CSS-Style-Changer-with-JQuery
+
+******************************
+*/
+
+
+
+/* Demo stylesheet */
+
+body {
+    margin: 0 auto;
+}
+.container {
+    width: 970px;
+    margin: 0 auto;
+}
+.mainmenu {
+    background-color: #ddd;
+    height: 70px;
+}
+.mainmenu ul {
+    list-style: outside none none;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+.mainmenu ul li {
+    display: inline-block;
+}
+.mainmenu ul li a {
+    display: block;
+    line-height: 70px;
+    padding: 0 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.text-uppercase {
+    text-transform: uppercase;
+}
+.text-capitalize {
+    text-transform: capitalize;
+}
+.download a {
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    display: inline-block;
+    color: #555;
+    border: 1px solid #555;
+    transition: all 0.3s ease 0s;
+}
+
+
+/* Plugin Stylesheet */
+
+.style-changer {
+    position: fixed;
+    top: 170px;
+    width: 160px;
+    left: -161px;
+    transition: all 0.3s ease 0s;
+}
+.style-changer.open {
+    left: 0px;
+}
+.style-changer-box {
+    border-right: 1px solid #ddd;
+    box-shadow: 1px 0 8px rgba(0, 0, 0, 0.3);
+    padding: 10px 5px 0 10px;
+}
+.style-box-control button {
+    background-color: #fff;
+    border-left: 0px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #eee;
+    height: 40px;
+    position: absolute;
+    font-size: 18px;
+    right: -39px;
+    width: 40px;
+    box-shadow: 1px 0 10px #ddd;
+    cursor: pointer;
+}
+.style-changer-box button {
+    cursor: pointer;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    width: 40px;
+}
+.style-changer-box button.disabled {
+    cursor: not-allowed;
+}
+.style-changer-box button.color-default {
+    background-color: #fd0e9d;
+    border: 1px solid #fd0e9d;
+}
+.style-changer-box button.color-red {
+    background-color: #ff0000;
+    border: 1px solid #ff0000;
+}
+.style-changer-box button.color-green {
+    background-color: #74A700;
+    border: 1px solid #74A700;
+}
+.style-changer-box button.color-gold {
+    background-color: #daa520;
+    border: 1px solid #daa520;
+}
+.style-changer-box button.color-blue {
+    background-color: #0088ff;
+    border: 1px solid #0088ff;
+}
+.style-changer-box button.color-skyblue {
+    background-color: #00bfff;
+    border: 1px solid #00bfff;
+}

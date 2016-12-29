@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Style Changer with JQuery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" data-style="styles" href="css/color/default.css">
+</head>
+<body>
+    <!-- page content goes here -->
+
+
+    <div class="mainmenu">
+        <ul>
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
+            <li><a href="#">Item 4</a></li>
+            <li><a href="#">Item 5</a></li>
+            <li><a href="#">Item 6</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h2 class="text-uppercase">How to use:</h2>
+        <h3>1. Getting Started</h3>
+
+        <pre>
+    <span style="color: #999999;">&lt;!-- Style changer css --&gt;</span>
+    &lt;link rel=<span class="change-color">"stylesheet"</span> href=<span  class="change-color">"style-changer.css"</span>&gt;
+
+    <span style="color: #999999;">&lt;!-- Set default color css --&gt;</span>
+    &lt;link rel=<span class="change-color">"stylesheet"</span> data-style=<span class="change-color">"styles"</span> href=<span class="change-color">"css/color/default.css"</span>&gt;
+
+    <span style="color: #999999;">&lt;!-- Call style-changer.js plugin --&gt;</span>
+    &lt;script src=<span class="change-color">"js/style-changer.js"</span>&gt;&lt;/script&gt;
+        </pre>
+
+        <h3 class="text-capitalize"> 2. Set up your HTML</h3>
+        <pre>
+    &lt;div class=<span class="change-color">"style-changer"</span>&gt;
+        &lt;div class=<span class="change-color">"style-box-control"</span>&gt;
+            &lt;button&gt; &lt;i class=<span class="change-color">"fa fa-cog fa-spin"</span>&gt;&lt;/i&gt;&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=<span class="change-color">"style-changer-box"</span>&gt;
+            &lt;button data-file=<span class="change-color">"default"</span> class=<span class="change-color">"color-default disabled"</span>&gt;&lt;/button&gt;
+            &lt;button data-file=<span class="change-color">"red"</span> class=<span class="change-color">"color-red"</span>&gt;&lt;/button&gt;
+            &lt;button data-file=<span class="change-color">"green"</span> class=<span class="change-color">"color-green"</span>&gt;&lt;/button&gt;
+            &lt;button data-file=<span class="change-color">"gold"</span> class=<span class="change-color">"color-gold"</span>&gt;&lt;/button&gt;
+            &lt;button data-file=<span class="change-color">"blue"</span> class=<span class="change-color">"color-blue"</span>&gt;&lt;/button&gt;
+            &lt;button data-file=<span class="change-color">"skyblue"</span> class=<span class="change-color">"color-skyblue"</span>&gt;&lt;/button&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+        </pre>
+        <h3 class="text-capitalize"> 3. create variations</h3>
+        <p> Now create color folder inside css folder then give your css version</p>
+        <p> like this: <span class="change-color">css/color/(all css here)</span></p>
+        <div class="download">
+            <a href="">download now</a>
+        </div>
+        <h3 class="text-capitalize">License</h3>
+        <p class="text-capitalize">you can use it for commercial project </p>
+    </div>
+
+    <!-- Style change html start -->
+    <div class="style-changer">
+        <div class="style-box-control">
+            <button> <i class="fa fa-cog fa-spin"></i></button>
+        </div>
+        <div class="style-changer-box">
+            <button data-file="default" class="color-default disabled"></button>
+            <button data-file="red" class="color-red"></button>
+            <button data-file="green" class="color-green"></button>
+            <button data-file="gold" class="color-gold"></button>
+            <button data-file="blue" class="color-blue"></button>
+            <button data-file="skyblue" class="color-skyblue"></button>
+        </div>
+    </div>
+    <!-- Style change html end -->
+
+
+    <!-- JQuery js -->
+    <script src="js/jquery.1.12.4.js"></script>
+    <script src="js/style-changer.js"></script>
+</body>
+</html>
