@@ -1,5 +1,5 @@
 # CSS-Style-Changer-with-JQuery
-Live Preview http://royhridoy.com/github/stylechanger/
+Live Preview http://hridoyroy.net/github/stylechanger/
 
 How to use:
 
